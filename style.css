@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2D3748;
+    color: white;
+    
+    
+    
+}
+
+/* NAVIGATION BAR */
+
+.navbar{
+    display: flex;
+    height: 75px;
+    width: 99.5%;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    position: relative;
+    /* background-color: #ced7d8; */
+    color: whitesmoke;
+
+}
+
+.navbar ul li{
+    display: flex;
+    /* display: inline; */
+
+}
+
+.navbar ul li a{
+    display: flex;
+    /* display: inline; */
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    color: whitesmoke;
+   
+}
+
+
+.navbar ul li a:hover{
+   color: hsla(229, 76%, 66%, 1);
+   
+   
+   
+}
+
+
+
+.navbar ul #name {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+    
+}
+
+#right-nav{
+    position: relative;
+    left: 650px;
+    margin: 0px 5px;
+    font-size: 20px;
+    float: right;
+
+}
+
+/* HERO */
+
+.hero{
+    height: 79vh;
+    width: 99.5%;
+    /* background-color: white; */
+    /* border: 2px solid white; */
+    position: relative;
+    top: 4px;
+}
+
+    
+
+
+#icon{
+    height: 370px;
+    width: 370px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 60%;
+    
+
+}
+
+.hero #h1{
+    position: absolute;
+    top: 30%;
+    left: 90px;
+    font-size: 48px;
+    background: transparent;
+
+
+}
+
+.hero #h1 span{
+    color: #667FEA;
+    background: transparent;
+}
+
+.contact{
+    position: relative;
+    border: 2px solid #667FEA;
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -15%;
+    left: 100px;
+    background-color: #667FEA;
+    
+
+}
+
+#btn{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #667FEA;
+    background: transparent;
+    
+}
+
+.contact:hover{
+    background-color: hsla(216, 15%, 52%, 1);
+    border: 2px solid hsla(216, 15%, 52%, 1) ;
+    color: hsla(214, 32%, 91%, 1);
+
+}
+
+.about{
+    position: relative;
+    border: 3px solid #728197;
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -25%;
+    left: 300px;
+    background-color: #2D3748;
+    color: white;
+    
+}
+
+.about:hover{
+    border: 3px solid #667FEA;
+}
+
+/* BLOG SECTION */
+
+.blog{
+    height: 200vh;
+    width: 99.5%;
+    /* border: 2px solid white; */
+    position: relative;
+    background-color: #1A212D;
+}
+
+
+
+#h2::before{
+    display: flex;
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 40px;
+    background-color: hsl(216, 15%, 52%);
+    width: 5px;
+    height: 105%;
+    border-radius: 5px;
+
+}
+
+#h2{
+    position: relative;
+    top: 60px;
+    left:0;
+    text-align: left;
+    padding-left: 75px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #EDF2F7;
+    background: transparent;
+
+}
+
+.cards{
+    height: 284px;
+    width: 800px;
+    background-color: hsl(218, 23%, 23%);
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.cards #chai_bar{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 15px 10px;
+    border-radius: 10px;
+
+}
+
+#title{
+    position: relative;
+    background: transparent;
+    top: -270px;
+    left: 40%;
+    
+}
+
+#intro{
+    position: relative;
+    background: transparent;
+    top: -250px;
+    left: 35%;
+    color:#667FEA;
+}
+
+#para{
+    position: relative;
+    background: transparent;
+    color: white;
+    top: -230px;
+    left: 35%;
+    
+    
+}
+
+.fa-circle-arrow-right{
+    position: relative;
+    top: -237px;
+    left: 88%;
+    font-size: 40px;
+    background: transparent;
+
+}
+
+.fa-circle-arrow-right:hover{
+    border: 1px solid #667FEA;
+    background-color: #667FEA;
+    border-radius: 50px;
+    
+
+}
+
+#talk{
+    position: relative;
+    background: transparent;
+    color: #EDF2F7;
+    font-size: 1.9rem;
+    top: -70%;
+    float: right;
+    right: 130px;
+    
+}
+
+.side_box{
+    position: relative;
+    height: 313px;
+    width: 270px;
+    top: -64%;
+    float: right;
+    right: -75px;
+    border-radius: 15px;
+    
+} 
+
+.side_box p{
+    background: transparent;
+    position: relative;
+    margin: 40px;
+    font-size: 1.3rem;
+    
+
+}
+
+.fa-linkedin{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+
+}
+
+.fa-linkedin:hover{
+    color: #667FEA;
+}
+
+.fa-instagram{
+    position: relative;
+    left: 80px;
+    font-size: 30px;
+}
+
+.fa-instagram:hover{
+    color: red;
+}
+
+.fa-github{
+    position: relative;
+    left: 115px;
+    font-size: 30px;
+}
+
+.fa-github:hover{
+    color: black;
+}
+
+#news{
+    position: relative;
+    background: transparent;
+    color: #EDF2F7;
+    font-size: 1.9rem;
+    top: -28%;
+    float: right;
+    right: -22%;
+}
+
+.sidebox2{
+    position: relative;
+    height: 313px;
+    width: 270px;
+    top: -22%;
+    float: right;
+    right: -38%;
+    border-radius: 15px;
+
+}
+
+.sidebox2 p{
+    background: transparent;
+    position: relative;
+    margin: 40px;
+    font-size: 1.3rem;
+
+}
+
+.sidebox2 #email{
+    position: relative;
+    background-color: #728197;
+    height: 40px;
+    width: 200px;
+    top: -20px;
+    left: 30px;
+    border:2px solid #EDF2F7;
+    border-radius: 10px;
+
+}
+
+.sidebox2 #email::placeholder{
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    color: hsla(211, 25%, 84%, 1);
+}
+
+.sidebox2 #subscribe{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    top: 15px;
+    left: 36px;
+    text-decoration: none;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    background-color: #667FEA;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+footer{
+    position: relative;
+    top: 20px;
+    height: 80vh;
+    width: 99.5%;
+    
+}
+
+.container{
+    position: relative;
+    background: transparent;
+    height: 60%;
+    left: 30px;
+    width: 95%;
+    top: 70px;
+    
+}
+
+.container h1{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: gray;
+    background: transparent;
+    font-size: 2rem;
+
+}
+
+.container p{
+    position: relative;
+    background: transparent;
+    top: 50px;
+    left: 30px;
+    font-size: 18px;
+    line-height: 200%;
+    color: #EDF2F7;
+}
+
+.container h2{
+    position: relative;
+    background: transparent;
+    text-align: center;
+    top: -118px;
+    font-size: 1.7rem;
+}
+
+.container a{
+    position: relative;
+    left:44%;
+    top: -22%;
+    font-size: 18px;
+    text-decoration: none;
+    background: transparent;
+}
+
+.container a:hover{
+    color: #667FEA;
+}
+
+.container h3{
+    position: relative;
+    right: 90px;
+    top: -230px;
+    font-size: 1.7rem;
+    float: right;
+    background: transparent;
+}
+
+.container #legal{
+    position: relative;
+    text-decoration: none;
+    top: -50%;
+    left: 75%;
+}
+
+/* footer hr{
+    position: relative;
+    top: 10%;
+} */
+
+footer#copy{
+    position: relative;
+    top: 90%;
+    left: 80%;
+}
